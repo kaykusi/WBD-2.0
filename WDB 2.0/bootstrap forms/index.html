@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bootstrap Forms</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1">Forms</h1>
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="form-control" placeholder="address">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="City">City</label>
+                    <input type="text" name="City" id="City" class="form-control" placeholder="City">
+                </div>
+                <div class="form-group col-md-3 col-6">
+                    <label for="selectform">Select Region</label>
+                    <select name="selectform" id="selectform" class="form-control">
+                        <option value="GR">Greater Accra</option>
+                        <option value="AR">Ahafo</option>
+                        <option value="CR">Central</option>
+                        <option value="ER">Eastern</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3 col-6">
+                    <label for="zip">zip</label>
+                    <input type="text" name="zip" id="zip" class="form-control" placeholder="zip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="custom-checkbox custom-control">
+                    <input type="checkbox" name="customCheck" id="customcheck1" class="custom-control-input">
+                    <label for="customcheck1" class="custom-control-label">
+                        Sign me up!
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Register</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

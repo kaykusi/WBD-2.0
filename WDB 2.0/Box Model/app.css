@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #90e0ef;
+}
+h1 {
+  width: 200px;
+  background-color: #90e0ef;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+#one {
+  background-color: chocolate;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+#two {
+  background-color: forestgreen;
+  border-width: 3px;
+  border-color: hotpink;
+  border-style: dotted;
+  margin: 200px;
+}
+
+#three {
+  background-color: goldenrod;
+  border: 4px groove chartreuse;
+  border-radius: 10%;
+}
+
+button {
+  padding: 20px 30px 40px 50px;
+}

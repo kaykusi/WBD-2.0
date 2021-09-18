@@ -1,0 +1,48 @@
+body {
+  background-color: #f1faee;
+}
+
+button {
+  background-color: #a8dadc;
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  color: #1d3557;
+}
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+span {
+  color: #a8dadc;
+}
+.tag {
+  background-color: #e76f51;
+  font-size: 20px;
+  color: #f1faee;
+}
+
+.sec a {
+  color: #c42587;
+}
+
+footer a {
+  color: #e76f51;
+}
+
+h2 + button {
+  font-size: 30px;
+  background-color: magenta;
+}
+
+footer > a {
+  color: #1d3557;
+}
+
+.sec button:hover {
+  background-color: #6a040f;
+  color: #f1faee;
+}
